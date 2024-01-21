@@ -5,7 +5,7 @@ import { useRoute } from 'vue-router'
 import DetailHot from './components/DetailHot.vue'
 import 'element-plus/theme-chalk/el-message.css'
 import { ElMessage } from 'element-plus'
-import { useCartStore } from '@/stores/cart'
+import { useCartStore } from '@/stores/cartStore'
 
 const goods = ref({})
 const route = useRoute()
@@ -408,4 +408,4 @@ const addCart = () => {
 .bread-container {
   padding: 25px 0;
 }
-</style>
+</style>@/stores/cartStore
